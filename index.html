@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quang</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/esm/ionicons.min.js"></script>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <header>
+        <div class="nav__left">
+            <div class="menu">
+                <p class="menu-container"><i class="fas fa-bars"></i><span>Menu</span></p>
+                <ul class="show-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <p class="back-btn">X</p>
+                </ul>
+
+            </div>
+            <div class="search__bar">
+                <input type="text" class="input__search" placeholder="Search">
+                <button class="search__btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="logo__shop">
+            <p class="logo" data-text="QUANG"> QUANG </p>
+        </div>
+        <div class="nav__right">
+            <div class="shopping">
+                <div class="notification">
+                    <p class="amount-notification">0</p>
+                </div>
+                <i class="fa fa-shopping-bag"></i>
+                <div class="shopping-cart">
+                    <div class="co-hang">
+                        <p class="cart-title">You have 2 items in your shopping bag</p>
+                        <div class="list-item">
+                        </div>
+                        <div class="result">
+                            <button class="bill-button">View your cart</button>
+                            <div class="total">
+                                <p class="total-money">Total: 0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="none-item">
+                        <img src="images/logo.png" alt="">
+                        <p>Your cart is currently empty.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </header>
+    <div class="carousel-container">
+        <div class="owl-carousel owl-theme">
+            <div class="item item-1">
+                <img src="images/carousel-1.png" alt="">
+                <div class="item-1-title">
+                <p>quang</p>
+                <p>furniture</p>
+            </div>
+            </div>
+
+            <div class="item item-2">
+                <img src="images/carousel-2.png" alt="">
+            </div>
+            <div class="item item-3">
+                <img src="images/carousel-3.png" alt="">
+            </div>
+            <div class="item item-4">
+                <img src="images/carousel-4.png" alt="">
+            </div>
+            <div class="item item-5">
+                <img src="images/carousel-5.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true
+        })
+    </script>
+    <div class="product__wrapper">
+        <p class="product__title">OUR PRODUCTS</p>
+        <div class="product__container">
+
+        </div>
+
+    </div>
+    <div class="added-noti">
+        <img src="images/logo.png" alt="">
+        <p class="noti-text"></p>
+    </div>
+    <div class="view-product">
+        <div class="product-image">
+            <img class="image" src="images/wooden-dining-table.png" alt="">
+        </div>
+        <div class="product-info">
+            <p class="name"></p>
+            <p class="price"></p>
+            <p>Lorem proin gravida nibh enean sonauris hime sollicitudin enean , lom himenaeos lorem ean consertquat
+                estruda cono pero.</p>
+            <div class="add-item">
+                <button class="decrease-item">-</button><input type="number" id="quantity" value="1"
+                    class="item-num"><button class="increase-item">+</button>
+
+            </div>
+            <button class="add-to-cart-on-view">Add to cart</button>
+            <p class="exit-btn"><i class="fa fa-times"></i></p>
+        </div>
+    </div>
+    <div class="sending-mail">
+        <div class="box-container">
+            <img src="images/letterbox.png" alt="">
+        </div>
+        <div class="mail-info">
+            <h3>RECEIVE OUR STORIES BY MAIL!</h3>
+            <p>Once a month, Stories presents you in its newsletter a new look at video games through meetings, reports,
+                videos, data, behind the scenes, initiatives ...</p>
+            <form>
+                <input type="email" placeholder="Subscribe your email here" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="services-wrapper">
+        <div class="service-container">
+            <i class="fa fa-shipping-fast"></i>
+            <div class="service-content">
+                <p>FREE SHIPPING</p>
+                <p>Free shipping on all VN orders</p>
+            </div>
+        </div>
+        <div class="service-container">
+            <i class="fa fa-exchange-alt"></i>
+            <div class="service-content">
+                <p>FREE EXCHANGE</p>
+                <p>30 days return on all items</p>
+            </div>
+        </div>
+        <div class="service-container">
+            <i class="fa fa-headset"></i>
+            <div class="service-content">
+                <p>PREMIUM SUPPORT</p>
+                <p>We support online 24 hours a day</p>
+            </div>
+        </div>
+        <div class="service-container">
+            <i class="fa fa-gift"></i>
+            <div class="service-content">
+                <p>BLACK FRIDAY</p>
+                <p>Shocking discount on every friday</p>
+            </div>
+        </div>
+    </div>
+    <div class="view-cart">
+    <div class="cart__wrapper">
+        <div class="shopping__cart">
+            <div class="cart__title">
+                <p>Shopping cart</p>
+                <p class="item-amount">3 items</p>
+            </div>
+            <div class="cart__container">
+                <div class="cart__container-title">
+                    <p>Product details</p>
+                    <p>Quantity</p>
+                    <p>Price</p>
+                    <p>Total</p>
+                </div>
+                <div class="cart__container-product">
+                    
+                    
+                </div>
+            </div>
+            <div class="continue-btn">
+                <i class="fa fa-long-arrow-alt-left"></i> <p>Continue shopping</p>
+            </div>
+        </div>
+        <div class="order__sumary">
+            <p class="sumary">Order Sumary</p>
+            <div class="sumary__title">
+                <p class="item-sumary">ITEM 3</p>
+                <p class="sumary-price">$99.99</p>
+            </div>
+            <div class="shipping">
+                <p>SHIPPING</p> 
+                <p class="shipping-fee"><span class="fee-before"></span>$5.00</p>
+            </div>
+            <div class="code">
+                <p>PROMO CODE</p>
+                <input type="text" placeholder="Appy your code" class="promode-code">
+                
+            </div>
+            <div class="code-apply">
+                <p class="result-code"></p>
+            <button class="apply-btn">Apply</button>
+            
+        </div>
+            <div class="total-cost">
+                <p>TOTAL COST</p>
+               <div class="last-cost"> <p class="total-bill">$106</p></div>
+            </div>
+            <div class="check-btn">
+            <button class="checkout-btn">CHECK OUT</button>
+            <button class="save-btn">SAVE</button>
+        </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="contact-info">
+            <h3>CONTACT INFO</h3>
+            <ul>
+                <li><span>Address:</span> 28 Green Tower, Street Name, New York City, USA</li>
+                <li>
+                    <span>Phone:</span> +8880 44338899
+                </li>
+
+            </ul>
+            <div class="contact-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
